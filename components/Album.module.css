@@ -1,14 +1,14 @@
-.album{
-    width: 220px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
+.album {
+  width: 200px;
+  height: contain;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-.title p{
-    color: rgb(0, 255, 0);
-    font-size: 15px;
-    margin-top: 0px;
-    font-weight: bold;
+.title p {
+  color: rgb(0, 255, 0);
+  font-size: 15px;
+  margin-top: 0px;
+  font-weight: bold;
 }

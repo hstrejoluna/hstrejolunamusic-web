@@ -14,7 +14,6 @@ const Layout = ({ children, titulo }) => {
 
       <main className={styles.main}>
         <Navbar />
-        <h2>Hello</h2>
         {children}
       </main>
     </>
