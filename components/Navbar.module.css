@@ -23,7 +23,7 @@
   padding: 0px;
 }
 
-.navigation li {
+.navigation a {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -36,9 +36,13 @@
   font-size: 16px;
   cursor: pointer;
 }
-
-.navigation li:hover {
-  color: black;
+.active {
+  color: white;
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #921afa
+  );
 }
 
 /* Sweep To Top */
@@ -94,7 +98,7 @@
 .sweeptop:hover:before,
 .sweeptop:focus:before,
 .sweeptop:active:before {
-    color: white;
+  color: white;
 
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
