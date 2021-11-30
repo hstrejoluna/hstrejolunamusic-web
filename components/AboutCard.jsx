@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./AboutCard.module.css";
-import icon from "../icon";
+import Icon from "../icon";
 
 const AboutCard = () => {
   return (
@@ -12,6 +12,7 @@ const AboutCard = () => {
         height="200"
         alt="profile pic"
       />
+        <Icon icon="github" size={120} color="orange"  />
       <div className={styles.about}>
         <h2>HS Trejo Luna</h2>
         <p>Cancún, México</p>
@@ -21,7 +22,8 @@ const AboutCard = () => {
           Software Environment.
         </p>
         <p>My Networks</p>
-        
+      
+
       </div>
     </div>
   );
