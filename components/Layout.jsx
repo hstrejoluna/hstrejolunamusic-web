@@ -3,11 +3,11 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
-const Layout = ({ children, titulo }) => {
+const Layout = ({ children, title }) => {
   return (
     <>
       <Head>
-        <title>HS TREJO LUNA MUSIC {titulo ? titulo : "Cargando..."}</title>
+        <title> {title ? title : "Cargando..."}</title>
       </Head>
       <meta name="description" content="GNU/Linuxwave music for your ears" />
       <link rel="icon" href="/favicon.ico" />
