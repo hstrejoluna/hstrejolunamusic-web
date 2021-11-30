@@ -20,6 +20,8 @@ const AboutCard = () => {
           that i call "GNU/Linuxwave" because its handcrafted in a full GPL
           Software Environment.
         </p>
+        <p>My Networks</p>
+        
       </div>
     </div>
   );
