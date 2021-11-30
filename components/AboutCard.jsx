@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./AboutCard.module.css";
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { FaBandcamp } from "react-icons/fa";
 
 const AboutCard = () => {
   return (
@@ -21,7 +22,13 @@ const AboutCard = () => {
           Software Environment.
         </p>
         <p>My Networks</p>
-        <BsFacebook size={30}/>
+        <div className={styles.iconsContainer}>
+          <BsFacebook size={30} />
+          <BsInstagram size={30} />
+          <FaBandcamp size={30} />
+          <BsLinkedin size={30} />
+          <BsYoutube size={30} />
+        </div>
       </div>
     </div>
   );
