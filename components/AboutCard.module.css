@@ -1,5 +1,5 @@
 .container {
-  padding-top: 20px;  
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,13 +15,21 @@
   text-align: center;
   color: rgb(0, 255, 0);
 }
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
 
-.iconsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-    margin-left: 10px;
-    width: 100%;
+.icon:hover {
+  transition: transform 0.2s; /* Animation */
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
+  cursor: pointer;
+  scale: 1.2;
 }
